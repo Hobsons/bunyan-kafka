@@ -24,17 +24,21 @@
     "url": "https://github.com/yunong/bunyan-kafka/issues"
   },
   "homepage": "https://github.com/yunong/bunyan-kafka#readme",
+  "peerDependencies": {
+    "bunyan": "1.x",
+    "kafka-node": "1.x"
+  },
   "dependencies": {
-    "assert-plus": "^0.1.5",
-    "bunyan": "^1.6.0",
-    "kafka-node": "^0.3.1"
+    "assert-plus": "^1.0.0"
   },
   "devDependencies": {
+    "bunyan": "^1.8.5",
     "chai": "^3.0.0",
-    "eslint": "0.24.0",
-    "istanbul": "^0.3.17",
-    "jscs": "1.13.1",
-    "mocha": "^2.2.5",
-    "uuid": "^2.0.1"
+    "eslint": "3.16.1",
+    "istanbul": "^0.4.5",
+    "jscs": "^3.0.7",
+    "kafka-node": "^1.5.0",
+    "mocha": "^3.0.1",
+    "uuid": "^3.0.1"
   }
 }
