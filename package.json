@@ -1,6 +1,6 @@
 {
-  "name": "bunyan-kafka",
-  "version": "1.0.1",
+  "name": "@purple/bunyan-kafka",
+  "version": "1.0.1-20170302",
   "description": "bunyan kafka plugin",
   "main": "index.js",
   "scripts": {
